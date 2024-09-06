@@ -10,13 +10,13 @@ A simple interactive memory game built using HTML, CSS, and JavaScript where pla
 
 
 # How to Play
--Start the Game: press  any key of keyboard  to begin.
--Follow the Pattern: Watch the sequence of lights and repeat them in the same order.
--Increasing Difficulty: With each level, a new step is added to the pattern.
--Mistake Handling: If you make a mistake, the game will end, and you can restart by pressing any key of keyboard again.
+- Start the Game: press  any key of keyboard  to begin.
+- Follow the Pattern: Watch the sequence of lights and repeat them in the same order.
+- Increasing Difficulty: With each level, a new step is added to the pattern.
+- Mistake Handling: If you make a mistake, the game will end, and you can restart by pressing any key of keyboard again.
 
 
 # Technologies Used
--HTML: Structure of the game.
--CSS: Styling the game interface.
--JavaScript: Game logic and functionality.
+- HTML: Structure of the game.
+- CSS: Styling the game interface.
+- JavaScript: Game logic and functionality.
