@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image: url(download.jfif) ;
+    background-size: cover;
+}
+#frontHead{
+    position: relative;
+    top:250px;
+    left:340px;
+    font-size: 60px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#frontBtn{
+    position: relative;
+    top: 350px;
+    left:200px;
+    font-size: 40px;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+}
+#frontBtn:hover{
+    color: blue;
+}
+.container{
+    display: none;
+}
+#nameprint{
+    position: relative;
+    top:200px;
+    left: 500px;
+    color: blue;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    top:200px;
+}
+#frontinput{
+    position: relative;
+    top:270px;
+    left:470px;
+    font-size: 30px;
+}
+h4{
+    position: relative;
+    top:200px;
+    text-align: center;
+    
+    font-size: 40px;
+    color: blue;
+    margin: 20px;
+}
+#btn1{
+    background-color: orangered;
+}
+#btn2{
+    background-color: yellow;
+}
+#btn3{
+    background-color: blue;
+}
+#btn4{
+    background-color: violet;
+}
+#btncontainer{
+    position: relative;
+    left: 570px;
+}
+.flash{
+    background-color: white !important;
+}
+.userflash{
+    background-color: black !important;
+}
+
+
