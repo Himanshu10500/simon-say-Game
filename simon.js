@@ -38,13 +38,13 @@ function display(){
    
    
     container.style.display = "block";
-    setTimeout(()=>{
-        let body = document.querySelector("body");
-       body.backgroundColor= "white";
-    },100);
+    // setTimeout(()=>{
+    //     let body = document.querySelector("body");
+    // //    body.backgroundColor= "white";
+    // },100);
 };
 show.addEventListener("mouseEnter",function(){
-    this.backgroundColor = "blue";
+    this.color = "blue";
 }) 
 let btn = document.querySelector("button")
 let frontBtn = document.querySelector("#frontBtn")
@@ -63,13 +63,13 @@ function flashbtn(btn){
 //    console.log(btn.getAttribute("class"));
 setTimeout(function(){
     btn.classList.remove("flash");
-},250);
+},300);
 };
 function userflashbtn(btn){
     btn.classList.add("userflash");
     setTimeout(function(){
         btn.classList.remove("userflash");
-    }, 250);
+    }, 100);
 };
 function levelup(){
     level++;
@@ -108,7 +108,9 @@ function check(){
 
 function btnpress(){
     let btn = this;
-    userflashbtn(btn);
+    setTimeout(userflashbtn(btn) , 250);
+    // userflashbtn(btn);
+
     let userbtn = btn.getAttribute("id");
     user.push(userbtn);
     console.log(user);
@@ -125,6 +127,8 @@ function gameover(){
     game = [];
     user = [];
     started = false;
+    level = 0;
+    start();
 }
 
 
